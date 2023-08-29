@@ -36,8 +36,7 @@ public:
 int main()
 {
     Solution solve;
-    string s = "noyon";
-    bool res = solve.isPalindrome(s);
+    bool res = solve.isPalindrome("noyon");
     if(res) cout<<"Yes, palindrome!\n";
     else cout<<"Opps, Not Palindrome!\n";
     return 0;
